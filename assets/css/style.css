@@ -19,7 +19,7 @@ main .servi .container .row {
 
 body {
   font-family: "Nunito", sans-serif;
-  background-color: rgba(128, 128, 128, 0.282);
+  background-image: url(../../assets/img/gota-de-agua-cayendo.webp);
 }
 
 /* Header menu hamburguesa y menú */
