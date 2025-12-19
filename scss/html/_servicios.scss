@@ -7,10 +7,15 @@ main {
         .container {
             .row {
                 @extend %center;
+
                 .card {
                     position: relative;
                     border: solid 2px;
                     margin: 10px;
+
+                    h2 {
+                        font-size: 25px;
+                    }
 
                     &:hover {
                         &::after {
