@@ -139,6 +139,7 @@ section .grilla .row .uno {
 }
 section .grilla .row .uno img {
   display: flex;
+  width: 100%;
   justify-self: center;
   border: solid 2px;
   border-radius: 20px;
