@@ -289,6 +289,12 @@ main .servi .container .row .card:hover::after {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 200px 200px 200px;
   }
+  div .carousel-inner {
+    padding: 20px;
+    width: 50%;
+    height: 40%;
+    justify-self: center;
+  }
 }
 /* Media queries para movil */
 @media (max-width: 500px) {
@@ -310,6 +316,12 @@ main .servi .container .row .card:hover::after {
   }
   main .encabezado .sub-titulo {
     font-size: 30px;
+  }
+  div .carousel-inner {
+    padding: 20px;
+    width: 78%;
+    height: 40%;
+    justify-self: center;
   }
 }
 
