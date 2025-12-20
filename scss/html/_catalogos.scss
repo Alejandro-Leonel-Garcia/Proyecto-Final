@@ -7,6 +7,7 @@ section {
   .grilla {
     .row {
       .uno {
+        padding: 20px;
         position: relative;
 
         img {
@@ -33,8 +34,8 @@ section {
         .link {
           position: absolute;
           color: map.get(mapa.$colores,color-tercero);
-          bottom: 10px;
-          left: calc(30%);
+          bottom: 30px;
+          left: calc(20%);
           z-index: 2;
           text-decoration: none;
           margin: 5px;

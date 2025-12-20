@@ -116,8 +116,10 @@ main .fotos div img {
 
 /* Slider de html bombas con bootstrap */
 div .carousel-inner {
-  width: 20%;
-  height: 20%;
+  margin: 30px;
+  padding: 20px;
+  width: 40%;
+  height: 40%;
   justify-self: center;
 }
 
@@ -132,6 +134,7 @@ div .carousel-inner {
 
 /* Imagen con superposicion del link html catalogos */
 section .grilla .row .uno {
+  padding: 20px;
   position: relative;
 }
 section .grilla .row .uno img {
@@ -154,8 +157,8 @@ section .grilla .row .uno:hover::after {
 section .grilla .row .uno .link {
   position: absolute;
   color: brown;
-  bottom: 10px;
-  left: 30%;
+  bottom: 30px;
+  left: 20%;
   z-index: 2;
   text-decoration: none;
   margin: 5px;
