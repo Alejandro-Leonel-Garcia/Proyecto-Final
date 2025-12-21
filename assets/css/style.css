@@ -332,6 +332,10 @@ main .servi .container .row .card:hover::after {
     height: 40%;
     justify-self: center;
   }
+  .aos img {
+    width: 330px;
+    height: 230px;
+  }
   .informacion ul {
     list-style: none;
     margin-top: 0px;
