@@ -179,6 +179,9 @@ main .servi .container .row .card {
   border: solid 2px;
   margin: 10px;
 }
+main .servi .container .row .card img {
+  margin-top: 10px;
+}
 main .servi .container .row .card h2 {
   font-size: 25px;
 }
