@@ -333,8 +333,9 @@ main .servi .container .row .card:hover::after {
     justify-self: center;
   }
   .aos img {
-    width: 330px;
-    height: 230px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
   }
   .informacion ul {
     list-style: none;
@@ -343,6 +344,7 @@ main .servi .container .row .card:hover::after {
   .informacion iframe {
     width: 280px;
     height: 200px;
+    overflow: hidden;
   }
 }
 
