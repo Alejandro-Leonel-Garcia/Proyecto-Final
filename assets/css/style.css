@@ -33,6 +33,9 @@ body {
 .navbar div button {
   background-color: black;
 }
+.navbar div button .navbar-brand {
+  margin-right: 0;
+}
 
 header {
   display: flex;
@@ -204,8 +207,8 @@ main .servi .container .row .card:hover::after {
 }
 .animaciones .caja {
   position: relative;
-  width: 300px;
-  height: 20rem;
+  width: 280px;
+  height: 19rem;
   background-image: linear-gradient(rgba(0, 0, 255, 0.551), yellow);
   transition: transform 1s;
   transition-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
@@ -260,6 +263,7 @@ main .servi .container .row .card:hover::after {
 }
 .informacion ul {
   list-style: none;
+  margin-top: 80px;
 }
 
 /*Media queries para tablet */
@@ -327,6 +331,10 @@ main .servi .container .row .card:hover::after {
     width: 78%;
     height: 40%;
     justify-self: center;
+  }
+  .informacion ul {
+    list-style: none;
+    margin-top: 0px;
   }
 }
 

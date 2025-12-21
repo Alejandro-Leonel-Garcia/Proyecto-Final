@@ -11,6 +11,9 @@
 
 .navbar div button {
   background-color: variables.$color-primero;
+  .navbar-brand{
+    margin-right: 0;
+  }
 }
 
 

@@ -38,12 +38,13 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 200px 200px 200px;
     }
+
     div .carousel-inner {
         padding: 20px;
         width: 50%;
         height: 40%;
         justify-self: center;
-    }
+    }    
 }
 
 /* Media queries para movil */
@@ -75,10 +76,17 @@
             }
         }
     }
+
     div .carousel-inner {
         padding: 20px;
         width: 78%;
         height: 40%;
         justify-self: center;
+    } 
+    .informacion {
+        ul {
+            list-style: none;
+            margin-top: 0px;
+        }
     }
 }

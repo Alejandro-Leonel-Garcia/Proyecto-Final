@@ -13,8 +13,8 @@
 
     .caja {
         position: relative;
-        width: 300px;
-        height: 20rem;
+        width: 280px;
+        height: 19rem;
         background-image: linear-gradient(variables.$color-titulo,variables.$color-cuarto);
         @extend %flex-center;
         transition: transform 1s;
