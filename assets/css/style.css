@@ -91,9 +91,6 @@ main .encabezado .sub-titulo {
   box-shadow: 0 0 10px;
   color: black;
 }
-main {
-  /* Fotos del index */
-}
 main .fotos {
   display: grid;
   justify-content: center;
