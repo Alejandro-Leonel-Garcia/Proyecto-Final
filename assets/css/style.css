@@ -336,6 +336,10 @@ main .servi .container .row .card:hover::after {
     list-style: none;
     margin-top: 0px;
   }
+  .informacion iframe {
+    width: 280px;
+    height: 200px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
