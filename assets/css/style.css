@@ -33,9 +33,6 @@ body {
 .navbar div button {
   background-color: black;
 }
-.navbar div button .navbar-brand {
-  margin-right: 0;
-}
 
 header {
   display: flex;
