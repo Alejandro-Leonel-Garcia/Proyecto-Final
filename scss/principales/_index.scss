@@ -2,15 +2,20 @@
 @use "../utilities/mixin";
 @use "../utilities/variables";
 
+.aos{
+    @include mixin.flex-center(flex, center, start);
+    padding: 20px;
+}
+
 .animaciones {
     height: 100vh;
     @extend %flex-center;
 
     .caja {
         position: relative;
-        width: 350px;
+        width: 300px;
         height: 20rem;
-        background-image: linear-gradient(variables.$color-titulo,variables.$color-quinto);
+        background-image: linear-gradient(variables.$color-titulo,variables.$color-cuarto);
         @extend %flex-center;
         transition: transform 1s;
         transition-timing-function: cubic-bezier(.17,.67,.83,.67);
@@ -20,7 +25,7 @@
             color: variables.$color-primero;
             font-weight: bold;
             font-family: cursive;
-            font-size: 30px;
+            font-size: 25px;
             content: "";
             width: 100%;
             height: 100%;
@@ -33,7 +38,7 @@
             color: variables.$color-primero;
             font-family: cursive;
             font-weight: bold;
-            font-size: 30px;
+            font-size: 25px;
             content: "";
             width: 100%;
             height: 100%;
@@ -48,7 +53,7 @@
             transform: scale(1.2)
             }
         img{
-            transition: transform 4s;
+            transition: transform 1s;
         }
         }
     }

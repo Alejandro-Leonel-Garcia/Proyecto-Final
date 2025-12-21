@@ -2,16 +2,17 @@
 
 
 /* Fotter pie de pagina */
-.informacion{
-            display: grid;
-            background-color: variables.$color-primero;
-            font-size: 20px;
-            color: variables.$color-segundo;
-            text-align: center;
-            margin: 30px 0px;
-            padding: 10px;
-            
-            ul{ 
-                list-style: none;
-            }
+
+.informacion {
+    display: grid;
+    background-color: variables.$color-primero;
+    font-size: 20px;
+    color: variables.$color-segundo;
+    text-align: center;
+    margin: 30px 0px;
+    padding: 10px;
+
+    ul {
+        list-style: none;
+    }    
 }

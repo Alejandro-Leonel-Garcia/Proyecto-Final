@@ -192,14 +192,21 @@ main .servi .container .row .card:hover::after {
   background-color: rgba(19, 9, 9, 0.225);
 }
 
+.aos {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 20px;
+}
+
 .animaciones {
   height: 100vh;
 }
 .animaciones .caja {
   position: relative;
-  width: 350px;
+  width: 300px;
   height: 20rem;
-  background-image: linear-gradient(rgba(0, 0, 255, 0.551), blueviolet);
+  background-image: linear-gradient(rgba(0, 0, 255, 0.551), yellow);
   transition: transform 1s;
   transition-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
 }
@@ -210,7 +217,7 @@ main .servi .container .row .card:hover::after {
   color: black;
   font-weight: bold;
   font-family: cursive;
-  font-size: 30px;
+  font-size: 25px;
   content: "";
   width: 100%;
   height: 100%;
@@ -224,7 +231,7 @@ main .servi .container .row .card:hover::after {
   color: black;
   font-family: cursive;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
   content: "";
   width: 100%;
   height: 100%;
@@ -238,7 +245,7 @@ main .servi .container .row .card:hover::after {
   transform: scale(1.2);
 }
 .animaciones .caja:hover img {
-  transition: transform 4s;
+  transition: transform 1s;
 }
 
 /* Fotter pie de pagina */
